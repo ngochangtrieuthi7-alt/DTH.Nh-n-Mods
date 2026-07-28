@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DTN MOD</title>
+
+<style>
+body{
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+body{
+    background:
+    linear-gradient(120deg,#000,#111,#222);
+    background-size:400% 400%;
+    animation:bg 10s infinite;
+}
+
+@keyframes bg{
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.navlogo{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    transition:.5s;
+}
+
+.navlogo:hover{
+    transform:rotate(360deg) scale(1.1);
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    transition:.3s;
+}
+
+.navbar a:hover{
+    color:#00ffff;
+    text-shadow:0 0 10px #00ffff;
+}
+
+.telegram-float{
+position:fixed;
+bottom:20px;
+right:20px;
+width:60px;
+height:60px;
+background:#0088cc;
+color:white;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+text-decoration:none;
+font-size:30px;
+}
+
+.card{
+width:90%;
+max-width:420px;
+margin:20px auto;
+padding:20px;
+background:rgba(0,0,0,.6);
+border-radius:15px;
+backdrop-filter:blur(10px);
+border:1px solid #00ff66;
+box-shadow:0 0 20px rgba(0,255,100,.4);
+}
+
+.card h2{
+color:#00ff66;
+}
+
+.card p{
+color:#ddd;
+}
+
+.navbar{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:12px;
+background:rgba(0,0,0,.7);
+backdrop-filter:blur(8px);
+display:flex;
+align-items:center;
+justify-content:center;
+z-index:999;
+}
+
+.navlogo{
+width:35px;
+height:35px;
+border-radius:50%;
+margin-right:10px;
+}
+body{
+    margin:0;
+    background-image:url("bg.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    color:white;
+    font-family:Arial;
+    text-align:center;
+}
+}
+
+.box{
+    margin-top:80px;
+}
+
+.btn{
+display:block;
+width:260px;
+margin:15px auto;
+padding:15px;
+background:#00c853;
+color:white;
+text-decoration:none;
+border-radius:12px;
+font-weight:bold;
+box-shadow:0 0 15px #00c853;
+transition:.3s;
+}
+
+.notice{
+width:90%;
+max-width:450px;
+margin:20px auto;
+padding:15px;
+background:#1f1f1f;
+border-left:5px solid #00ff66;
+border-radius:10px;
+text-align:left;
+}
+.logo{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    margin-top:30px;
+    margin-bottom:15px;
+    border:3px solid #00ff66;
+    box-shadow:0 0 20px #00ff66;
+}
+@keyframes glow{
+    from{
+        box-shadow:0 0 15px #00ff66;
+    }
+    to{
+        box-shadow:0 0 35px #00ff66,0 0 60px #00ff66;
+    }
+}
+body{
+    animation: moTrang 2s ease;
+}
+
+@keyframes moTrang{
+    0%{
+        opacity:0;
+        transform:scale(0.9);
+    }
+
+    100%{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+
+/* Mắt Itachi xuất hiện */
+body::after{
+    content:"";
+    position:fixed;
+    width:150px;
+    height:150px;
+    background:url("itachi.png") center/contain no-repeat;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    opacity:0;
+    animation: itachiEye 13s infinite;
+    animation-delay:10s;
+    pointer-events:none;
+    z-index:999;
+}
+
+@keyframes itachiEye{
+    0%, 75%{
+        opacity:0;
+        transform:translate(-50%,-50%) scale(0);
+    }
+
+    80%{
+        opacity:1;
+        transform:translate(-50%,-50%) scale(1);
+    }
+
+    95%{
+        opacity:1;
+    }
+
+    100%{
+        opacity:0;
+        transform:translate(-50%,-50%) scale(1.2);
+    }
+}
+
+</style>
+
+</head>
+<body>
+<div class="navbar">
+  <img src="logobg.jpg" class="navlogo">
+  <span>DTN MOD</span>
+</div>
+<div class="box">
+  
+<img src="logobg.jpg" class="logo">
+<h1>DTN MOD</h1>
+
+<p>👨‍💻 Developer: DTN</p>
+
+<p>📢 Telegram: @DTN_207</p>
+
+<p style="color:#00ff66;font-weight:bold;">
+🟢 STATUS: ONLINE
+</p>
+<div class="notice">
+🔥 Chào mừng đến DTN MOD.<br>
+⚠️ Vượt link để tải APK.<br>
+📢 Theo dõi Telegram để nhận bản cập nhật mới.
+</div>
+
+<hr>
+
+
+
+<div class="card">
+<h2>📦 ZENNY V4 NO LOG SS</h2>
+
+<p>📱 Phiên bản: 4.0</p>
+<p>📦 Dung lượng: 25 MB</p>
+<p>📅 Cập nhật: 30/07/2026</p>
+
+<a class="btn" href="https://layma.net/Dq1ljHRwB">TẢI NGAY</a>
+</div>
+
+<div class="card">
+<h2>🎯 ĐỊNH VỊ FF MAX (SÚNG)</h2>
+
+<p>📱 Phiên bản: 1.0</p>
+<p>📦 Dung lượng: 15 MB</p>
+<p>📅 Cập nhật: 30/07/2026</p>
+
+<a class="btn" href="https://layma.net/CWkPFeiyW">TẢI NGAY</a>
+</div>
+<a href="https://t.me/DTN_207" class="telegram-float">📢</a>
+
+</body>
+</html>
